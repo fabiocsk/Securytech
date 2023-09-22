@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Estilo para el fondo */
+        body {
+            background-image: url('https://img.freepik.com/vector-premium/fondo-vector-monocromo-blanco-abstracto-folleto-diseno-folleto-sitio-web-fondo-pantalla-blanco-geometrico-pagina-inicio-presentacion-certificado_249611-5879.jpg?w=1480');
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilo para el encabezado */
+        header {
+            text-align: center;
+            padding-top: 30px;
+        }
+
+        /* Estilo para el texto "SEGURYTECH" */
+        #nombre-empresa {
+            font-size: 76px;
+            font-weight: bold;
+            color: #0074cc; /* Cambia el color a azul (#0074cc) */
+        }
+
+        /* Estilo para el texto "Tu aliado en la seguridad" */
+        #aliado-seguridad {
+            font-size: 20px;
+            color: #000;
+            width: 100%;
+            background-color: #FF2D00;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        /* Estilo para el texto "¿Qué te ofrecemos?" */
+        #que-te-ofrecemos {
+            font-size: 44px; /* Hace el texto más grande */
+            font-weight: bold; /* Pone el texto en negrita */
+            color: #000;
+            text-align: left;
+            padding: 30px 20px 10px; /* Espaciado superior mayor, espaciado inferior y lateral igual */
+        }
+
+        /* Estilo para el nuevo texto */
+        #nuevo-texto {
+            font-size: 24px;
+            color: #000;
+            text-align: left;
+            padding: 10px 20px; /* Espaciado interno */
+        }
+
+        /* Estilo para el texto "¿Qué solicitas?" */
+        #que-solicitas {
+            font-size: 44px;
+            font-weight: bold; /* Pone el texto en negrita */
+            color: #000;
+            text-align: left;
+            padding: 20px 20px 10px; /* Espaciado superior mayor, espaciado inferior y lateral igual */
+        }
+
+        /* Estilo para la lista de solicitudes */
+        #solicitudes {
+            font-size: 24px;
+            color: #000;
+            text-align: left;
+            padding: 10px 20px; /* Espaciado interno */
+        }
+
+        /* Estilo para el texto "¿Buscas reforzar la seguridad de tu empresa?" */
+        #reforzar-seguridad {
+            font-size: 44px;
+            font-weight: bold; /* Pone el texto en negrita */
+            color: #000;
+            text-align: left;
+            padding: 20px 20px 10px; /* Espaciado superior mayor, espaciado inferior y lateral igual */
+        }
+
+        /* Estilo para la lista de servicios de seguridad */
+        #servicios-seguridad {
+            font-size: 24px;
+            color: #000;
+            text-align: left;
+            padding: 10px 20px; /* Espaciado interno */
+        }
+
+        /* Estilo para el texto "Nuestro grupo de trabajadores" */
+        #grupo-trabajadores {
+            font-size: 44px;
+            font-weight: bold; /* Pone el texto en negrita */
+            color: #000;
+            text-align: left;
+            padding: 30px 20px 10px; /* Espaciado superior mayor, espaciado inferior y lateral igual */
+        }
+
+        /* Estilo para los cuadros de fotos y su contenedor */
+        .contenedor-cuadros {
+            text-align: center;
+            display: inline-block; /* Para que los cuadros estén en línea horizontal */
+            margin: 10px; /* Espacio entre los cuadros */
+        }
+
+        .cuadro-foto {
+            width: 200px;
+            height: 200px;
+            background-color: #fff;
+            border: 1px solid #000;
+            display: inline-block;
+        }
+
+        /* Estilo para el texto debajo de los cuadros de fotos */
+        .texto-bajo-cuadro {
+            font-size: 18px;
+            color: #000;
+            text-align: center;
+        }
+
+        /* Estilo para el video informativo */
+        #video-informativo {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        iframe {
+            width: 640px; /* Ancho aumentado para centrar */
+            height: 480px; /* Altura aumentada para centrar */
+            display: block; /* Hace que el video se centre correctamente */
+            margin: 0 auto; /* Centra horizontalmente */
+        }
+
+        /* Estilo para el texto "VIDEO PROMOCIONAL" */
+        #video-promocional {
+            font-size: 44px;
+            font-weight: bold; /* Pone el texto en negrita */
+            color: #000;
+            text-align: center; /* Centra el texto horizontalmente */
+            margin-top: 20px; /* Espacio superior */
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado de tu sitio web -->
+    <header>
+        <div id="nombre-empresa">SEGURYTECH</div>
+        <div id="aliado-seguridad">Tu aliado en la seguridad</div>
+    </header>
+
+    <!-- Texto "¿Qué te ofrecemos?" con cambios -->
+    <div id="que-te-ofrecemos">¿Qué te ofrecemos?</div>
+
+    <!-- Nuevo texto -->
+    <div id="nuevo-texto">
+        En Segurytech, ofrecemos soluciones de seguridad cibernética completas para proteger sus activos digitales. Nuestros servicios incluyen evaluaciones de seguridad, gestión de amenazas, protección de datos, capacitación, cumplimiento y servicios de gestión de seguridad. Trabajamos incansablemente para fortalecer su seguridad en línea y proteger su negocio de las amenazas cibernéticas en constante evolución.
+    </div>
+
+    <!-- Texto "¿Qué solicitas?" -->
+    <div id="que-solicitas">¿Qué solicitas?</div>
+
+    <!-- Lista de solicitudes -->
+    <div id="solicitudes">
+        Si requieres un Antivirus de confianza en Segurytech te ofrecemos:
+        <ul>
+            <li>Bloqueo de páginas no aptas para menores.</li>
+            <li>Protección contra posible malware en anuncios.</li>
+            <li>Protección contra doxeo, phishing, etc.</li>
+        </ul>
+    </div>
+
+    <!-- Texto "¿Buscas reforzar la seguridad de tu empresa?" -->
+    <div id="reforzar-seguridad">¿Buscas reforzar la seguridad de tu empresa?</div>
+
+    <!-- Lista de servicios de seguridad -->
+    <div id="servicios-seguridad">
+        Entonces te ofrecemos:
+        <ul>
+            <li>Protección en tiempo real.</li>
+            <li>Seguridad de archivos confidenciales.</li>
+            <li>Revisión y constante mantenimiento.</li>
+        </ul>
+    </div>
+
+    <!-- Texto "Nuestro grupo de trabajadores" -->
+    <div id="grupo-trabajadores">Nuestro grupo de trabajadores:</div>
+
+    <!-- Contenedor para los cuadros de fotos -->
+    <div class="contenedor-cuadros">
+        <!-- Cuadro 1 -->
+        <div class="cuadro-foto"></div>
+        <!-- Texto debajo del Cuadro 1 -->
+        <div class="texto-bajo-cuadro">
+            MISAEL<br>
+            Técnico de sistemas
+        </div>
+    </div>
+
+    <!-- Contenedor para los cuadros de fotos -->
+    <div class="contenedor-cuadros">
+        <!-- Cuadro 2 -->
+        <div class="cuadro-foto"></div>
+        <!-- Texto debajo del Cuadro 2 -->
+        <div class="texto-bajo-cuadro">
+            FABIO<br>
+            Programador
+        </div>
+    </div>
+
+    <!-- Contenedor para los cuadros de fotos -->
+    <div class="contenedor-cuadros">
+        <!-- Cuadro 3 -->
+        <div class="cuadro-foto"></div>
+        <!-- Texto debajo del Cuadro 3 -->
+        <div class="texto-bajo-cuadro">
+            SAHIR<br>
+            Webmaster
+        </div>
+    </div>
+
+    <!-- Contenedor para los cuadros de fotos -->
+    <div class="contenedor-cuadros">
+        <!-- Cuadro 4 -->
+        <div class="cuadro-foto"></div>
+        <!-- Texto debajo del Cuadro 4 -->
+        <div class="texto-bajo-cuadro">
+            MARCOS<br>
+            Encargado de Marketing
+        </div>
+    </div>
+
+    <!-- Texto "VIDEO PROMOCIONAL" -->
+    <div id="video-promocional">VIDEO PROMOCIONAL</div>
+
+    <!-- Video Informativo -->
+    <div id="video-informativo">
+        <iframe src="https://drive.google.com/file/d/1RZIv7HPVgIxnSMsNPhhxLk-ZrCtEeLRZ/preview" width="640" height="480" allow="autoplay"></iframe>
+    </div>
+
+    <!-- Resto del contenido de tu sitio web -->
+</body>
+</html>
